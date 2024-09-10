@@ -1,0 +1,201 @@
+First Layer Speed:
+
+	•	First layer: 30 mm/s
+	•	First layer infill: 80 mm/s
+	•	Initial layer travel speed: 100% mm/s or %
+	•	Number of slow layers: 0 layers
+
+Other Layer Speeds:
+
+	•	Outer wall: 60 mm/s
+	•	Inner wall: 90 mm/s
+	•	Small perimeters: 50% mm/s or %
+	•	Small perimeters threshold: 0 mm
+	•	Sparse infill: 130 mm/s
+	•	Internal solid infill: 130 mm/s
+	•	Top surface: 50 mm/s
+	•	Gap infill: 50 mm/s
+	•	Support: 50 mm/s
+	•	Support interface: 80 mm/s
+
+Overhang Speed:
+
+	•	Slow down for overhangs: Checked
+	•	Classic mode: Unchecked
+	•	Slow down for curled perimeters: Unchecked
+	•	Overhang speed:
+	•	0 mm/s (10%, 25%)
+	•	20 mm/s (25%, 50%)
+	•	15 mm/s (50%, 75%)
+	•	10 mm/s (75%, 100%)
+	•	Bridge:
+	•	External: 100 mm/s
+	•	Internal: 150% mm/s or %
+
+Travel Speed:
+
+	•	Travel: 110 mm/s
+
+Acceleration Settings:
+
+	•	Normal printing: 500 mm/s²
+	•	Outer wall: 500 mm/s²
+	•	Inner wall: 1000 mm/s²
+	•	Bridge: 50% mm/s² or %
+	•	Sparse infill: 75% mm/s² or %
+	•	Internal solid infill: 75% mm/s² or %
+	•	First layer: 500 mm/s²
+	•	Top surface: 500 mm/s²
+	•	Travel: 700 mm/s²
+
+Jerk Settings (XY):
+
+	•	Default: 0 mm/s
+	•	Outer wall: 9 mm/s
+	•	Inner wall: 9 mm/s
+	•	Infill: 9 mm/s
+	•	Top surface: 9 mm/s
+	•	First layer: 9 mm/s
+	•	Travel: 12 mm/s
+
+Walls Settings:
+
+	•	Wall loops: 3
+	•	Alternate extra wall: Unchecked
+	•	Detect thin walls: Checked
+
+Top/Bottom Shells Settings:
+
+	•	Top surface pattern: Monotonic lines
+	•	Top shell layers: 4 layers
+	•	Top shell thickness: 0.8 mm
+	•	Bottom surface pattern: Monotonic
+	•	Bottom shell layers: 4 layers
+	•	Bottom shell thickness: 0 mm
+	•	Top/Bottom solid infill/wall overlap: 25%
+
+Infill Settings:
+
+	•	Sparse infill density: 15%
+	•	Sparse infill pattern: Gyroid
+	•	Sparse infill anchor length: 400% mm or %
+	•	Maximum length of the infill anchor: 20 mm or %
+	•	Internal solid infill pattern: Monotonic
+	•	Apply gap fill: Unchecked
+	•	Infill/wall overlap: 15%
+
+Advanced Infill Settings:
+
+	•	Sparse infill direction: 45°
+	•	Solid infill direction: 45°
+	•	Rotate solid infill direction: Checked
+	•	Bridge infill direction: 0°
+	•	Minimum sparse infill threshold: 10 mm²
+	•	Infill combination: Unchecked
+	•	Detect narrow internal solid infill: Checked
+	•	Ensure vertical shell thickness: All
+
+Layer Height Settings:
+
+	•	Layer height: 0.2 mm
+	•	First layer height: 0.2 mm
+
+Line Width Settings:
+
+	•	Default: 0.46 mm or %
+	•	First layer: 0.46 mm or %
+	•	Outer wall: 0.42 mm or %
+	•	Inner wall: 0.45 mm or %
+	•	Top surface: 0.42 mm or %
+	•	Sparse infill: 0.45 mm or %
+	•	Internal solid infill: 0.42 mm or %
+	•	Support: 0.38 mm or %
+
+Seam Settings:
+
+	•	Seam position: Aligned
+	•	Staggered inner seams: Unchecked
+	•	Seam gap: 10% mm or %
+	•	Scarf joint seam (beta): None
+	•	Role base wipe speed: Checked
+	•	Wipe speed: 80% mm/s or %
+	•	Wipe on loops: Unchecked
+	•	Wipe before external loop: Unchecked
+
+Precision Settings:
+
+	•	Slice gap closing radius: 0.049 mm
+	•	Resolution: 0.012 mm
+	•	Arc fitting: Unchecked
+	•	X-Y hole compensation: 0 mm
+	•	X-Y contour compensation: 0 mm
+	•	Elephant foot compensation: 0 mm
+	•	Precise wall: Unchecked
+	•	Convert holes to polyholes: Unchecked
+	•	Precise Z height: Unchecked
+
+Ironing Settings:
+
+	•	Ironing type: No ironing
+
+Wall Generator Settings:
+
+	•	Wall generator: Arachne
+	•	Wall transitioning threshold angle: 10°
+	•	Wall transitioning filter margin: 25%
+	•	Wall transition length: 100%
+	•	Wall distribution count: 1
+	•	First layer minimum wall width: 85%
+	•	Minimum wall width: 85%
+	•	Minimum feature size: 25%
+	•	Minimum wall length: 0.5 mm
+
+Walls and Surfaces Settings:
+
+	•	Walls printing order: Inner/Outer
+	•	Print infill first: Unchecked
+	•	Wall loop direction: Auto
+	•	Top surface flow ratio: 1
+	•	Bottom surface flow ratio: 1
+	•	Only one wall on top surfaces: Unchecked
+	•	Only one wall on first layer: Unchecked
+	•	Avoid crossing walls: Unchecked
+	•	Small area flow compensation (beta): Unchecked
+
+Bridging Settings:
+
+	•	Bridge flow ratio: 0.95
+	•	Internal bridge flow ratio: 1
+	•	Bridge density: 100%
+	•	Thick bridges: Unchecked
+	•	Thick internal bridges: Checked
+	•	Don’t filter out small internal bridges (beta): Unchecked
+	•	Bridge counterbore holes: None
+
+Overhang Settings:
+
+	•	Detect overhang walls: Checked
+	•	Make overhangs printable: Unchecked
+	•	Extra perimeters on overhangs: Unchecked
+	•	Reverse on odd: Unchecked
+
+Flush Options Settings:
+
+	•	Flush into objects’ infill: Unchecked
+	•	Flush into objects’ support: Checked
+
+Special Mode Settings:
+
+	•	Slicing mode: Regular
+	•	Print sequence: By layer
+	•	Intra-layer order: Default
+	•	Spiral vase: Unchecked
+	•	Fuzzy skin: None
+
+Advanced G-code Output Settings:
+
+	•	Interlocking depth of a segmented region: 0 mm
+	•	Reduce infill retraction: Checked
+	•	Verbose G-code: Unchecked
+	•	Label objects: Checked
+	•	Exclude objects: Unchecked
